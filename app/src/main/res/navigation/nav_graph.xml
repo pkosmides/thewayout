@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/defaultFragment">
+
+    <fragment
+        android:id="@+id/WHONewsFragment"
+        android:name="eu.catalink.thewayout.WHONewsFragment"
+        android:label="Trusted News - WHO"
+        tools:layout="@layout/whonews_fragment" />
+    <fragment
+        android:id="@+id/CDCNewsFragment"
+        android:name="eu.catalink.thewayout.CDCNewsFragment"
+        android:label="Trusted News - CDC"
+        tools:layout="@layout/whonews_fragment" />
+    <fragment
+        android:id="@+id/PIONewsFragment"
+        android:name="eu.catalink.thewayout.PIONewsFragment"
+        android:label="Trusted News - CY PIO"
+        tools:layout="@layout/whonews_fragment" />
+    <fragment
+        android:id="@+id/UsefulInfoFragment"
+        android:name="eu.catalink.thewayout.UsefulInfoFragment"
+        android:label="Useful Links"
+        tools:layout="@layout/whonews_fragment" />
+    <fragment
+        android:id="@+id/defaultFragment"
+        android:name="eu.catalink.thewayout.MapsFragment"
+        android:label="The Way Out"
+        tools:layout="@layout/maps_fragment" >
+    </fragment>
+
+</navigation>
